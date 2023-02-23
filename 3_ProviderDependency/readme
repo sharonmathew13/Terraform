@@ -1,0 +1,2 @@
+Provider Dependnecy file just store the version of the providers and checksum values.
+so upgrade of the version is determined, inorder to avoid error when the Resorce gets updated with new versions  
