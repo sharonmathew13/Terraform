@@ -1,0 +1,5 @@
+CREATE BEFORE DESTROY:
+    While ec2 instance is changed from AZ -1a to AZ -1b:
+                           the resource in AZ -1a gets destroyed and then AZ -1b is Created.
+    While ec2 instance is changed from AZ -1a to AZ -1b and LIFECYCLE -> create-destroy-destoy= true:
+                           th resource in AZ -1b is created before AZ -1a is Deleted.
