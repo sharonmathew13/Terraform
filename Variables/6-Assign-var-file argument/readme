@@ -1,0 +1,3 @@
+By Default terraform.tfvars are loaded. But <fil_name>.tfvars should be explicitly added to the terraform plan command
+cmd: terraform plan -var-file="web.tfvars"
+     terraform plan -var-file="app.tfvars"
