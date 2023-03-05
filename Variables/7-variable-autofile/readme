@@ -1,0 +1,2 @@
+Variable added to web.app.tfvars --> we need not add any -var-file into command : terraform plan
+ terraform.tfvars == web.auto.tfvars
