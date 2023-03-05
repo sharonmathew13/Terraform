@@ -1,0 +1,4 @@
+Prompted using CLI:
+  When default value is not assigned in a variable ---> the cli prompts for the variable.
+    
+    
