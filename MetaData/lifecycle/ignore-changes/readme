@@ -1,0 +1,1 @@
+Adding ignore-changes=true in a resource:  if ignore the changes which is created manually thereby the changes made manually prevails even after apply is executed.
