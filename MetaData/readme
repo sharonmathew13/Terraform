@@ -1,1 +1,8 @@
-
+Metadata Arguments changes the behaviour of the resources.
+Metadata:
+  1. depends_on
+  2.count
+  3.for_each
+  4.Provider
+  5.Life cycle
+  6.Provisioners and Connection
