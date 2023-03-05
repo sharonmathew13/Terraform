@@ -1,0 +1,4 @@
+Some arguments(eg: subnets) of resources cannot be updated. It has to be destroyed and recreated.
+AWS: we cannot update subnet of resource from us-east-1a to us-east-1b.
+     so the resource in us-east-1a is deleted and then,
+     the resource in us-east-1b is created.
