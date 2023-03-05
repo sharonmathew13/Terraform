@@ -1,0 +1,2 @@
+Terraform.tfvar
+ This file has the variables which will override the default variables in the variable file 
