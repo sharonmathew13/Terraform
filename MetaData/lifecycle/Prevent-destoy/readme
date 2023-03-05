@@ -1,2 +1,2 @@
 When prevent-destroy = true : we cannot destroy the resource that its(prevent-destroy) linked to.
-But if we delete the entire resource from config file then terraform destroy works
+But if we delete the prevent-destroy of the resource from config file then terraform destroy works
