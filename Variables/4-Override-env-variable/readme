@@ -1,0 +1,14 @@
+Override using environmental variables:
+   The default values can be overrriden using env variabled:
+           # Sample
+              export TF_VAR_variable_name=value
+
+        # SET Environment Variables
+        export TF_VAR_ec2_instance_count=1
+        export TF_VAR_ec2_instance_type=t3.large
+        echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type  
+        
+         # UNSET Environment Variables after demo
+         unset TF_VAR_ec2_instance_count
+         unset TF_VAR_ec2_instance_type
+         echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type      
