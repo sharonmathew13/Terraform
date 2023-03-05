@@ -1,0 +1,6 @@
+Override default with -var :
+       the default var of the resources cam be overridden by giving -var value in the command prompt
+       cmd :  terraform plan -var = "aws_instance_type=t2.small" -out v3out.plan
+       the v3out.plan will have all the -var values so,
+       cmd : terraform apply v3out.plan 
+       can be used
