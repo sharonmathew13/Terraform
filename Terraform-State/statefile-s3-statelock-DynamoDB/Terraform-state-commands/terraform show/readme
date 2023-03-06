@@ -1,0 +1,5 @@
+CMD: terrraform show:
+                       It outputs the state file of terraform
+     CMD: terraform plan -out=v1plan.out
+          terrraform show v1plan.out
+     Explanation:   Here v1plan.out is in binary form. Terraform show command converts the binary into human readable form.
