@@ -1,0 +1,5 @@
+DataSource-> allow data to be fetched or computed for use elsewhere in terraform configuration
+syntax for data resource:
+                       data <data-source> <local-name>{
+                       
+                       }
