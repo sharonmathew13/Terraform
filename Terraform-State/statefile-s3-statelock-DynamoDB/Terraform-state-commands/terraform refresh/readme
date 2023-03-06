@@ -1,0 +1,7 @@
+Any changes made manually to the infrastructure can be updated to tfsate file using REFRESH.
+REFRESH-->PLAN-->APPLY
+
+Steps:
+     1. Updates tfstate file
+     2. But if terraform apply is executed the changes goes away.
+     3. Comparing the tfstate file and manifest file decide whether the changes has to be made
